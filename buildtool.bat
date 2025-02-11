@@ -1,0 +1,8 @@
+cd /d %~dp0
+SET GLFW=%CD%\ext\GLFW
+SET IMGUI=%CD%\ext\ImGui
+SET IMGUIDOCK=%CD%\ext\ImGuiDock
+SET SHADERDIR=%CD%\src\shaders
+SET DEBUGDIR=%CD%\x64\DEBUG
+SET RELEASEDIR=%CD%\x64\RELEASE
+cmd.exe /k CLS
